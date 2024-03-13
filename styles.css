@@ -134,6 +134,7 @@ background-color: #79625C;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .about .row .image{
