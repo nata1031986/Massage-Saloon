@@ -116,8 +116,9 @@ section{
 }
 
 .about {
- background: linear-gradient(110.3deg, rgb(238, 179, 123) 8.7%, rgb(216, 103, 77) 47.5%, rgb(114, 43, 54) 89.1%);
-
+ background-image: url("team.png");
+ background-repeat: no-repeat;
+ background-position: left bottom;
 }
 
 .about .row{
@@ -160,4 +161,18 @@ section{
 
 .about .row .content .icons-container .icons{
 flex: 1 1 16rem;
+text-align: center;
+background: #444;
+padding: 3rem 2rem;
+}
+.about .row .content .icons-container .icons img{
+  height: 5rem;
+}
+
+.about .row .content .icons-container .icons h3{
+padding-top: 1rem;
+font-size: 1.6rem;
+color:#444;
+font-weight: normal;
+text-transform: capitalize;
 }
