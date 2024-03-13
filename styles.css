@@ -114,3 +114,50 @@ section{
   font-weight: 900;
   
 }
+
+.about {
+ background: linear-gradient(110.3deg, rgb(238, 179, 123) 8.7%, rgb(216, 103, 77) 47.5%, rgb(114, 43, 54) 89.1%);
+
+}
+
+.about .row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about .row .image{
+  flex: 1 1 39rem;
+}
+
+.about .row .image img {
+  width: 100%;
+}
+
+.about .row .content{
+  flex: 1 1 51em;
+  padding: 5rem;
+}
+
+.about .row .content h3{
+  font-size: 3rem;
+  color: red;
+}
+
+.about .row .content p{
+  font-size: 1.6rem;
+  color: #444;
+  padding: 1rem 0;
+  line-height: 1.8;
+}
+
+.about .row .content .icons-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.about .row .content .icons-container .icons{
+flex: 1 1 16rem;
+}
