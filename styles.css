@@ -227,5 +227,17 @@ background-color: #E78B00;
   z-index: 10;
   height: 100%;
   width: 100%;
-  background: #C593BA;
+  background: #373743;
+  display: none;
+}
+.services .box-container .box .content h3{
+  text-align: center;
+  font-size: 3rem;
+  color: aliceblue;
+  padding-top: 40rem;
+  text-transform: capitalize;
+}
+
+.services .box-container .box:hover .content{
+  display: flex;
 }
