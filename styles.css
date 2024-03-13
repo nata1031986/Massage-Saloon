@@ -120,9 +120,16 @@ section{
  background-repeat: no-repeat;
  background-position: left bottom;
   color: #444;
-background-color: #343642;
+background-color: #79625C;
+ 
 }
-
+.about h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+  color:white;
+  text-transform: capitalize;
+   font-family: "Dancing Script", cursive;
+}
 .about .row{
   display: flex;
   align-items: center;
@@ -146,13 +153,18 @@ background-color: #343642;
 .about .row .content h3{
   font-size: 3rem;
   color:#343642;
+   font-family: "Dancing Script", cursive;
+   color: aliceblue;
 }
 
 .about .row .content p{
-  font-size: 1.9rem;
+  font-size: 2.5rem;
+  font-weight: 800;
   color: #343642;
   padding: 1rem 0;
   line-height: 1.8;
+  color: aliceblue;
+   font-family: "Dancing Script", cursive;
 }
 
 .about .row .content .icons-container{
