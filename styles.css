@@ -4,6 +4,7 @@
   box-sizing: border-box;
   outline: none;
   border: none;
+  text-decoration: none;
   transition: all .2s linear;
 }
 
@@ -22,7 +23,7 @@ html::-webkit-scrollbar-track{
   background-color: beige;
 }
 html::-webkit-scrollbar-thumb{
-  background-color: red;
+  background-color: #543C29;
 }
 
 section{
@@ -39,8 +40,77 @@ section{
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   top:0;
   left: 0; right:0;
-  background:  #00a89d;
+  background: #7c7c00;
   
   z-index: 1000;
 
+}
+.header .logo{
+  font-size: 3rem;
+  font-weight: bolder;
+  color:white;
+  text-transform: capitalize;
+   font-family: "Dancing Script", cursive;
+}
+.header .navbar #close-navbar{
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  font-size: 4rem;
+  cursor: pointer;
+  color: wheat;
+  display: none;
+}
+
+.header .navbar a{
+  font-size: 2rem;
+  margin-left: 2rem;
+  color: white;
+  text-transform: capitalize;
+}
+.header .navbar a:hover {
+  padding-bottom: 0.5rem;
+  color: #543C29;
+}
+
+#menu-btn{
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: black;
+  display: none;
+}
+
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url('saloon.png');
+  background-position: center;
+  background-size: cover;
+ }
+
+ .home .content{
+  max-width: 60rem;
+ }
+.home .content span{
+  font-size: 3rem;
+  letter-spacing: .5rem;
+  padding-bottom: .5rem;
+  color: #333;
+  text-transform: uppercase;
+}
+.home .content span {
+  font-size: 3rem;
+  letter-spacing: .5rem;
+  padding-bottom: .5rem;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.home .content h3{
+  color:#333;
+  font-size: 3rem;
+  line-height: 5rem;
+  font-weight: 900;
+  
 }
