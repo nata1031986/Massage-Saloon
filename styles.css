@@ -200,7 +200,11 @@ background-color: #2B2E5D;
 
 }
 .services h1{
-font-family: "Dancing Script", cursive;
+ font-size: 3rem;
+  font-weight: bolder;
+  color:white;
+  text-transform: capitalize;
+   font-family: "Dancing Script", cursive;
 }
 .services .box-container{
   display: grid;
