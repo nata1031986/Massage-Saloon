@@ -233,7 +233,7 @@ background-color: #2B2E5D;
   justify-content: center;
   position: absolute;
   top: 0; left: 0;
-  z-index: 9;
+  z-index: 10;
   height: 100%;
   width: 100%;
   background: #373743;
