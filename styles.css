@@ -195,8 +195,13 @@ text-transform: capitalize;
 
 .services{
 background-color: #2B2E5D;
-}
+  
+  color:aliceblue;
 
+}
+.services h1{
+font-family: "Dancing Script", cursive;
+}
 .services .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
