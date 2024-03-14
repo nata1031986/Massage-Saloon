@@ -396,3 +396,16 @@ color: aliceblue;
   text-transform: none;
   background: none;
 }
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  background: #9ba6a5;
+  color: red;
+  font-size: 2rem;
+  cursor:pointer;
+  padding: 1rem 3rem;
+}
+.btn:hover {
+  background: white;
+ color: black; 
+}
