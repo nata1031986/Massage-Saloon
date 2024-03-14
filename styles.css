@@ -481,7 +481,7 @@ text-align: center;
   display: black;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
  .about .image {
     display: none; 
   }
