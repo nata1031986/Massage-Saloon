@@ -481,3 +481,12 @@ text-align: center;
   display: black;
 }
 
+@media (max-width: 600px) {
+ .about .image {
+    display: none; 
+  }
+
+ .about .icons-container {
+    display: none; 
+  }
+}
