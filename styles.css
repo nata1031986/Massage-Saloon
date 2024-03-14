@@ -399,7 +399,7 @@ color: aliceblue;;
   text-transform: none;
   background: none;
 }
-.btn {
+.btn-12 {
   margin-top: 1rem;
   display: inline-block;
   background: #efdfbf;
@@ -409,8 +409,8 @@ color: aliceblue;;
   padding: 1rem 3rem;
 }
 .btn:hover {
-  background: black
- color: black; 
+background: black;
+ color: white; 
 }
 .heading-1{
 font-size: 3rem;
