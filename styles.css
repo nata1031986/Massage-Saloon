@@ -489,4 +489,11 @@ text-align: center;
  .about .icons-container {
     display: none; 
   }
+ .about .icons {
+  display:none;
+ }
+ .content {
+    
+    color: black; 
+  }
 }
