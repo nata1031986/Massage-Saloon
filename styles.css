@@ -402,7 +402,7 @@ color: aliceblue;;
 .btn-12 {
   margin-top: 1rem;
   display: inline-block;
-  background: linear-gradient(135deg, #6E48AA 0%, #9D50BB 100%); /* A modern gradient from purple to a brighter purple */
+  background: linear-gradient(60deg, #29323c 0%, #485563 100%);
   color: white;
   font-size: 1.5rem; 
   cursor: pointer;
