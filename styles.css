@@ -402,20 +402,27 @@ color: aliceblue;;
 .btn-12 {
   margin-top: 1rem;
   display: inline-block;
-  background: #efdfbf;
-  color: #706c61;
-  font-size: 2rem;
-  cursor:pointer;
+  background: linear-gradient(135deg, #6E48AA 0%, #9D50BB 100%); /* A modern gradient from purple to a brighter purple */
+  color: white;
+  font-size: 1.5rem; 
+  cursor: pointer;
   padding: 1rem 3rem;
+  border: none; 
+  border-radius: 30px; 
+  transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for hover effects */
+  text-transform: uppercase; 
+  font-weight: bold; 
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16); 
 }
-.btn:hover {
-background: black;
- color: white; 
+
+.btn-12:hover{
+  background: linear-gradient(135deg, #9D50BB 0%, #6E48AA 100%); 
+  color: #ffffff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25); 
 }
 .heading-1{
 font-size: 3rem;
 color:#343642;
 font-family: "Dancing Script", cursive;
 font-weight: 700;
-
 }
