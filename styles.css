@@ -334,13 +334,21 @@ border-radius: 50%;
   text-transform: capitalize;
   cursor: pointer;
   background: none;
-  color: red;
-  border: 2px solid var(--red);
+  color: black;
+  border: 2px solid black;
   font-size: 17px;
   font-weight: bold;
 }
 
-.pricing .box-container .box button:hover{
-  color: white;
-  background-color: red;
+.pricing .box-container .box button:hover {
+  color: white; 
+  background-color: #C0C0C0; 
+  box-shadow: 0 0 10px #E0E0E0; 
+}
+
+.heading {
+ font-size: 3rem;
+color:#343642;
+font-family: "Dancing Script", cursive;
+color: aliceblue;
 }
