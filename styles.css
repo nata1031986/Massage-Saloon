@@ -496,4 +496,19 @@ text-align: center;
     
     color: black; 
   }
+
+html{
+font-size: 55%;
+}
+#menu-btn{
+  display: inline-block;
+}
+.header .navbar{
+  position: fixed;
+  top: 0; right: -105%;
+  width: 30rem;
+  background: white;
+  height: 100%;
+  display: flex;
+}
 }
