@@ -510,5 +510,24 @@ font-size: 55%;
   background: white;
   height: 100%;
   display: flex;
+  flex-flow: column;
+  justify-content: center;
+  z-index: 1200;
+}
+.header .navbar #close-navbar{
+  display: block;
+}
+.header .navbar .active{
+  right:0;
+}
+
+.header .navbar a{
+  display: block;
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 3rem;
+}
+.home .content h3{
+  font-size: 5.5rem;
 }
 }
